@@ -136,7 +136,6 @@ public class SellerListController implements Initializable, DataChangeListener {
 	@Override
 	public void onDataChanged() {
 		updateTableView();
-
 	}
 
 	private void initEditButtons() {
